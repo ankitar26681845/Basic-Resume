@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Resume</title>
+    <link rel="stylesheet" href= "resumecss.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+        <h1>Ankit Kumar</h1>
+        <p class="title"> Data Analyst</p>
+        <p>Email: ankitbhardvaj18@gmail.com || phone number: 9631xxxx</p>
+        </header>
+        <section>
+            <h2 onclick="toggleSection('summary')">Summary</h2>
+            <div id="summary" class ="content">
+                <p>Highly Skilled Data analyst with 1 year experience</p>
+            </div>
+        </section>
+        <section>
+            <h2 onclick="toggleSection('skills')">Skills</h2>
+            <div id = "skills" class ="content">
+                <ul>
+                    <li>
+                        HTML,CSS JAVASCRIP
+                    </li>
+                    <li>
+                        C++, Python, SQL
+                    </li>
+                    <li>
+                        Excel, Tableau, R-Programming
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2 onclick="toggleSection('experience')">Experience</h2>
+            <div id="experience" class="content">
+                <h3>Full Stack developer- Creed Infotech with 2 experience </h3>
+                <ul>
+                    <li>
+                        Worked on the Tutoring Student for more then 1 years
+                    </li>
+                    <li>
+                        Worked on projects such as Calculator, Hopsital management system, Newspaper, etc
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+        <section>
+            <h2 onclick="toggleSection('education')">Education</h2>
+            <div id ="education" class="content">
+                <h3>Bachelor Of Technology in Computer Science</h3>
+                <p>Lovely Professional University, Phagwara, Punjab</p>
+        </div>
+        </section>
+        <footer>
+            <p>&copy; 2024 Ankit Kumar. All right reserved</p>
+        </footer>
+        <script src="resumejs.js"></script>
+    
+</body>
+</html>
